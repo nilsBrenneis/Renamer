@@ -1,4 +1,4 @@
-package UmbenennerV2;
+package renamer;
 
 import java.awt.BorderLayout;
 import java.awt.GraphicsDevice;
@@ -42,7 +42,7 @@ public class GUI {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		JPanel buttonsJP = new JPanel();
 		renameBtn = new JButton("Umbenennen");
-		pathBtn = new JButton("Öffnen");
+		pathBtn = new JButton("Ã–ffnen");
 		resetBtn = new JButton("Reset");
 
 		renameBtn.setEnabled(false);
@@ -99,7 +99,7 @@ public class GUI {
 				boolean textAreaOK = true;
 				if (u.containsNotUsableChar(jta.getText())) {
   					JOptionPane.showMessageDialog(jf,
-							"Dateinamen dürfen keine Sonderzeichen enthalten",
+							"Dateinamen dï¿½rfen keine Sonderzeichen enthalten",
 							"Abbruch", JOptionPane.ERROR_MESSAGE);
   					textAreaOK = false;
 				}

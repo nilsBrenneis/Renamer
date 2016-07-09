@@ -1,4 +1,4 @@
-package UmbenennerV2;
+package renamer;
 
 import java.io.File;
 import java.io.IOException;
