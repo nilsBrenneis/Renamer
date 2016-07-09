@@ -99,7 +99,7 @@ public class GUI {
 				boolean textAreaOK = true;
 				if (u.containsNotUsableChar(jta.getText())) {
   					JOptionPane.showMessageDialog(jf,
-							"Dateinamen d�rfen keine Sonderzeichen enthalten",
+							"Dateinamen dürfen keine Sonderzeichen enthalten",
 							"Abbruch", JOptionPane.ERROR_MESSAGE);
   					textAreaOK = false;
 				}
